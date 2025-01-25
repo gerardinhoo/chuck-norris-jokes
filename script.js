@@ -7,13 +7,14 @@ async function norisJokes() {
       let response = await fetch(api);
       let jsonResponse = await response.json();
       if(!response.ok) {
-        throw new Error(`HTTP error status: ${response.status}`)
+        throw new Error(`HTTP error status: ${response.status}`);
+       
       }  
       displayJoke.textContent = jsonResponse.value;
       return displayJoke;
    } catch(error) {
       console.log(error);
-      displayJoke.textContent = 'Error displaying a joke. Please try again Later.'
+      displayJoke.textContent = 'Something went wrong. Please try again Later.'
    }
 }
 
