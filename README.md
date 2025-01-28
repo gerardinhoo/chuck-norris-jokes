@@ -1,8 +1,13 @@
-  Chuck Norris Jokes 
+  Chuck Norris Random Jokes 
+
+  Technology: JavaScrip - Async Await 
 
   Displaying random jokes using the Chuck Norris API.
 
+  API Used: https://api.chucknorris.io/
+
   Deployed with Netflix:  https://aquamarine-sable-2350e9.netlify.app/
+  
 
 
 
